@@ -1,6 +1,6 @@
 <p align="center">
   <img src="(https://telegra.ph/file/266ae3d6c17a1e13eaf93.jpg)" alt="The Movie Provider Bot Logo">
-</p>
+</p>p
 <h1 align="center">
   <a href="https://telegram.me/TheMovieProviderBot">THE MOVIE PROVIDER BOT</a>
 </h1>
