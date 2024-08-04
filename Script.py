@@ -1,13 +1,13 @@
 class script(object):
-    START_TXT = """ʜᴇʏ {}, {}\n\nɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Munesh_king">JK</a>"""
+    START_TXT = """ʜᴇʏ {}, {}\n\nɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Munesh_king">ʜᴘ</a>"""
 
-    GSTART_TXT = """ʜᴇʏ {},\n\nɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Munesh_king">JK</a>"""
+    GSTART_TXT = """ʜᴇʏ {},\n\nɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Munesh_king">ʜᴘ</a>"""
     
     HELP_TXT = """<b>ʜᴇʏ {},
     
 ᴡᴇ ʜᴀᴠᴇ ᴅᴇᴠɪᴅᴇᴅ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏʀ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀꜱ ᴀɴᴅ ʙᴏᴛ ᴜꜱᴇʀꜱ.</b>"""
 
-    ABOUT_TXT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : {}\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/DeletedFromEarth'>Hᴀʀꜱʜᴀʟ ❤️‍🔥</a>\n‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ\n‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n‣ ʜᴏsᴛᴇᴅ ᴏɴ  : ʜᴇʀᴏᴋᴜ\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ4.2 [sᴛᴀʙʟᴇ]</b>"""
+    ABOUT_TXT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : {}\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Munesh_king'>Munesh ❤️‍🔥</a>\n‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ\n‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n‣ ʜᴏsᴛᴇᴅ ᴏɴ  : ʜᴇʀᴏᴋᴜ\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ4.2 [sᴛᴀʙʟᴇ]</b>"""
     
     CHANNELS = """
 <b>⚡ ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs ɪɴғᴏ ⚡ 
@@ -39,7 +39,7 @@ Bʏ @TheMovieProviderBot"""
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
 
-Bʏ @TheMovieProviderBot"""
+Bʏ @Jk_movie_search_bot"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,
@@ -234,7 +234,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     CREDITS_TXT = """<b>
 ❤️‍🩹 <u>ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ ᴇᴠᴇʀʏᴏɴᴇ</u>
 
-• ᴍᴀɪɴ ᴏᴡɴᴇʀ : <a href="https://t.me/DeletedFromEarth">Hᴀʀꜱʜᴀʟ ❤️‍🔥</a>
+• ᴍᴀɪɴ ᴏᴡɴᴇʀ : <a href="https://t.me/Munesh_king">Munesh ❤️‍🔥</a>
 • ʙᴀꜱᴇ ʀᴇᴘᴏ : <a href="https://t.me/creatorbeatz">Jᴏᴇʟ ᠰ TɢX</a>
 • sᴛʀᴇᴀᴍ ғᴇᴀᴛᴜʀᴇ : <a href="https://t.me/LazyDeveloperr">LazyDeveloper</a>
 • sᴛʀᴇᴀᴍ ᴡᴇʙꜱɪᴛᴇ : <a href="https://t.me/Biisal">Bɪɪsᴀʟ</a>
@@ -245,7 +245,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 ɪ ᴀᴍ ꜱᴏʀʀʏ ɪꜰ ɪ ꜰᴏʀɢᴏᴛ ꜱᴏᴍᴇᴏɴᴇ 🫂
 ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ʜᴇʟᴘɪɴɢ ɪɴ ᴛʜɪꜱ ᴀᴍᴀᴢɪɴɢ ʀᴏʟʟᴇʀ ᴄᴏᴀꜱᴛᴇʀ ᴊᴏᴜʀɴᴇʏ 🚀</b>
 """ 
-   # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
+   # PLEASE  NOT REMOVE ANY CREDITS ❤️‍🩹
     
     CAPTION = """ 📂 <i><a href="https://t.me/+etqGZ6VNsdY1ZGE1">{file_name}</a></i>\n\n"""
 
@@ -445,5 +445,5 @@ BOT WORKING PROPERLY"""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developer -
 
--Dev [Owner of this bot ]<a href='https://t.me/Munesh_king'>JK</a>
+-Dev [Owner of this bot ]<a href='https://t.me/Munesh_king'>ʜᴘ</a>
 """
