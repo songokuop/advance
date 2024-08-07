@@ -1422,7 +1422,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("ᴠɪᴇᴡ ꜱᴛᴀᴛᴜꜱ", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/MoviesLinkSearchBot2")
+                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/Movies_Zone_Spport")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1554,58 +1554,55 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
+            parse_modeawait query.answer(MSG_ALRT)
+
+    elif query.data == "purchase":
+
+        buttons = [[InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+
+        await query.message.edit_text(
+            text="iske bich mai jo text dalna hai dal do",
+            reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
+        )
+
+    # elif query.data == "upi_info":
+    #     buttons = [[
+    #         InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', user_id=int(767250672))
+    #     ],[
+    #         InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
+    #     ]]
+    #     reply_markup = InlineKeyboardMarkup(buttons)
+    #     await query.message.edit_text(
+    #         text=script.UPI_TXT.format(query.from_user.mention),
+    #         reply_markup=reply_markup,
+    #         parse_mode=enums.ParseMode.HTML
+    #     )
+
+    # elif query.data == "qr_info":
+    #     buttons = [[
+    #         InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', user_id=int(767250672))
+    #     ],[
+    #         InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
+    #     ]]
+    #     reply_markup = InlineKeyboardMarkup(buttons)
+    #     await query.message.edit_text(
+    #         text=script.QR_TXT.format(query.from_user.mention),
+    #         reply_markup=reply_markup,
+    #         parse_mode=enums.ParseMode.HTML
+    #     )       
+
+    # elif query.data == "seeplans":
+    #     btn = [[
+    #         InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(767250672))
+    #     ],[
+    #         InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
+    #     ]]
+    #     reply_markup = InlineKeyboardMarkup(btn)
         )
         await query.answer(MSG_ALRT)
 
-    elif query.data == "purchase":
-        buttons = [[
-            InlineKeyboardButton('💵 ᴘᴀʏ ᴠɪᴀ ᴜᴘɪ ɪᴅ 💵', callback_data='upi_info')
-        ],[
-            InlineKeyboardButton('📸 ꜱᴄᴀɴ ǫʀ ᴄᴏᴅᴇ 📸', callback_data='qr_info')
-        ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.PURCHASE_TXT.format(query.from_user.mention),
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-
-    elif query.data == "upi_info":
-        buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', user_id=int(767250672))
-        ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.UPI_TXT.format(query.from_user.mention),
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-
-    elif query.data == "qr_info":
-        buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', user_id=int(767250672))
-        ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.QR_TXT.format(query.from_user.mention),
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )       
-
-    elif query.data == "seeplans":
-        btn = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(767250672))
-        ],[
-            InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
-        ]]
-        reply_markup = InlineKeyboardMarkup(btn)
         await query.message.reply_photo(
             photo=(SUBSCRIPTION),
             caption=script.PREPLANS_TXT.format(query.from_user.mention),
