@@ -1600,9 +1600,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
     #         InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
     #     ]]
     #     reply_markup = InlineKeyboardMarkup(btn)
-        )
-        await query.answer(MSG_ALRT)
-
         await query.message.reply_photo(
             photo=(SUBSCRIPTION),
             caption=script.PREPLANS_TXT.format(query.from_user.mention),
@@ -1617,7 +1614,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if has_free_trial:
             await query.answer("🚸 ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ʏᴏᴜʀ ꜰʀᴇᴇ ᴛʀɪᴀʟ ᴏɴᴄᴇ !\n\n📌 ᴄʜᴇᴄᴋᴏᴜᴛ ᴏᴜʀ ᴘʟᴀɴꜱ ʙʏ : /plan", show_alert=True)
             return
-        else:            
+        else:             
             await db.give_free_trial(user_id)
             await query.message.reply_text(
                 text="<b>🥳 ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ\n\n🎉 ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ꜰʀᴇᴇ ᴛʀᴀɪʟ ꜰᴏʀ <u>5 ᴍɪɴᴜᴛᴇs</u> ꜰʀᴏᴍ ɴᴏᴡ !</b>",
