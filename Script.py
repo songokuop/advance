@@ -245,7 +245,16 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 """ 
    # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
-    CAPTION = """ <b>📂 ғɪʟᴇɴᴀᴍᴇ : [@Movies_Zone_Media] {filename}</b>\n\n"""
+    CAPTION = """<b>📂ɴᴀᴍᴇ  : [@Movies_Zone_Media] {file_name}
+
+〰️〰️〰️〰️〰️〰️〰️〰️
+╭───🔅 ᴜᴘʟᴏᴀᴅ ʙʏ 🔅 ────╮
+├• ▫️<a href=https://t.me/Movies_Zone_Media>ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a>
+╰───────────────────╯
+〰️〰️〰️〰️〰️〰️〰️〰️〰️
+🍁 ғᴏʀ ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs
+👉🏻 ▫️ <a href=https://t.me/movies_zone_spport>ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ꜱᴜᴘᴘᴏʀᴛ</a>
+〰️〰️〰️〰️〰️〰️〰️〰️〰️</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
