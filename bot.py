@@ -20,7 +20,8 @@ logging.getLogger("aiohttp").setLevel(logging.ERROR)
 logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
 
-from pyrogram import Client, __version__
+from pyrogram import Client, __version_ 
+import pyrogram.utils
 from pyrogram.raw.all import layer
 from database.ia_filterdb import Media
 from database.users_chats_db import db
@@ -39,6 +40,7 @@ from pyrogram import idle
 from lazybot import LazyPrincessBot
 from util.keepalive import ping_server
 from lazybot.clients import initialize_clients
+pyrogram.utils.MIN_CHANNEL_ID = -100999999999999
 
 
 ppath = "plugins/*.py"
